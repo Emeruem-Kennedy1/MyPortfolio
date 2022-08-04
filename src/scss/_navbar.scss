@@ -1,0 +1,57 @@
+.nav-item{
+    font-size: 1rem;
+    font-weight: 300;
+
+    a:hover{
+        transition: ease-in-out 0.3s;
+        color: $primaryColor;
+    }
+
+    a{
+        padding: 1rem 2rem;
+        text-decoration: none;
+        color: $secondaryColor;
+    }
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100vw;
+    background-color: $greyColor;
+    margin: 0;
+    height: 10vh;
+    padding: 0px;
+
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .active{
+        a{
+            color: $primaryColor;
+        }
+    }
+}
+
+.sticky-nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+    background-color: $greyColor;
+}
+
+@media screen and (max-width: 700px){
+    .nav-item button{
+        display: none;
+    }
+
+    .nav-item a{
+        padding: 1rem 1rem;
+    }
+}

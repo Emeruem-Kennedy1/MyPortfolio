@@ -1,0 +1,135 @@
+
+
+
+.contact-section{
+    padding-bottom: 3rem;
+
+    .contact-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0rem 2rem 2rem 2rem;
+        text-align: center;
+
+        h1{
+            font-size: 2rem;
+            font-weight: 300;
+            color: $primaryColor;
+            padding: 2rem 0rem 0rem 0rem;
+        }
+    
+        p{
+            font-size: 1.1rem;
+            font-weight: 300;
+            color: $secondaryColor;
+        }
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 8%;
+    }
+    @media screen and (max-width: 1140px) and (min-width: 600px){
+
+        .contacts{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+        }
+    }
+    
+    @media screen and (max-width: 600px){
+        .contacts{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+        }
+    }
+}
+
+
+
+
+// fix this section
+
+.social-container > a{
+    text-decoration: none;
+}
+.social-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.social-container .link:hover{
+    cursor: pointer;
+    color: $primaryColor !important;
+}
+
+.social-container i{
+    color: $secondaryColor;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding: 0 1.5rem;
+}
+
+.social-container p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: $secondaryColor;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-container .link:hover i, .social-container .link:hover p{
+    color: $primaryColor;
+}
+
+@media screen and (min-width: 1140px){
+    .social-container{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 30%;
+    }
+    .social-container i{
+        font-size: 2.5rem;
+        padding: 0 1rem;
+    }
+    .social-container .social-text{
+        font-size: 1rem;
+    }
+    .social-container a{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .social-container i{
+        font-size: 2.5rem;
+        padding: 0 1.5rem;
+    }
+    .social-container .social-text{
+        font-size: 1rem;
+    }
+}

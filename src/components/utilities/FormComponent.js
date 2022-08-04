@@ -1,18 +1,48 @@
 import React from 'react'
 import Button from './Button'
-import './formComponent.css'
+// import './formComponent.css'
 
-export default function FormComponent() {
+
+
+
+export default function FormComponent({action}) {
+
+  function submit(e) {
+    e.preventDefault()
+    const form = e.target
+    const formData = {
+      name: form.name.value,
+      email: form.email.value,
+      message: form.message.value
+    }
+    fetch(action, {
+      method: 'POST',
+      body: JSON.stringify(formData),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then(res => res.json())
+    .then(data => {
+      form.name.value = ''
+      form.email.value = ''
+      form.message.value = ''
+      console.log(data)
+    }
+    )
+    console.log(formData);
+  }
+
+
   return (
     <div className="form-container">
-      <form action="" method="POST">
+      <form action={action} method="POST" onSubmit={submit}>
         <div className='name-and-email'>
           <InputBox name="name" placeholder="Fullname" type="text" label="Name" />
           <InputBox name="email" placeholder="Email Address" type="email" label="Email" />
         </div>
         <TextArea name="message" placeholder="Say Hi" label="Message"  rows='10'/>
         <div className="button-container">
-          <Button children="Submit" cName='btn btn-primary'/>
+          <Button type='submit' children="Submit" cName='btn btn-primary'/>
         </div>
       </form>
     </div>
@@ -20,19 +50,18 @@ export default function FormComponent() {
 }
 
 
-const InputBox = ({name, placeholder, type, label, cName}) => {
+const InputBox = ({name, placeholder, type, value, cName, trackChange}) => {
   return (
     <div className="form-group input-box">
         {/* <label htmlFor={name}>{label}</label> */}
-        <input type={type} className={`form-control ${cName}`} required id={name} name={name} placeholder={placeholder} />
+        <input onChange={trackChange} type={type} className={`form-control ${cName}`} required id={name} name={name} placeholder={placeholder} />
     </div>
   )
 }
 
-const TextArea = ({name, placeholder, label, rows, cName}) => {
+const TextArea = ({name, placeholder, rows, cName}) => {
   return (
     <div className="form-group textarea">
-        {/* <label htmlFor={name}>{label}</label> */}
         <textarea className={`form-control ${cName}`} required id={name} name={name} placeholder={placeholder} rows={rows? rows: '4' } ></textarea>
     </div>
   )

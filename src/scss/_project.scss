@@ -1,0 +1,90 @@
+@import 'variables.scss';
+
+.project-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0rem 10rem;
+    background-color: $greyColor;
+    padding-top: 2rem;
+
+    h1{
+        font-size: 2rem;
+        font-weight: 300;
+        padding: 2rem;
+        color: $primaryColor;
+        text-align: center;
+    }
+
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-gap: 2rem;
+        align-items: center;
+
+        .project-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            background-color: $greyColor;
+            border-radius: 10px;
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease-in-out;
+            margin-bottom: 2rem;
+        
+            &-image{
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                border-radius: 10px 10px 0px 0px;
+                overflow: hidden;
+        
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        
+            &-text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                padding: 0rem 1.5rem;
+                text-align: center;
+        
+                button{
+                    margin: 1rem 0rem;
+                }
+        
+                h3{
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    margin-bottom: 0.5rem;
+                    color: $primaryColor;
+                }
+        
+                p{
+                    font-size: .9rem;
+                    font-weight: 100;
+                    color: $secondaryColor;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .project-section{
+        padding: 4rem 5rem;
+    }
+}

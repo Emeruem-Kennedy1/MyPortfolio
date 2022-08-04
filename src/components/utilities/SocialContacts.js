@@ -1,5 +1,5 @@
 import React from 'react'
-import './socialContacts.css'
+// import './socialContacts.css'
 
 
 const sociallinks = [
@@ -15,7 +15,7 @@ const sociallinks = [
   },
   {
     name: 'Twitter',
-    url: 'twitter.com/jamesmh',
+    url: 'https://twitter.com/jamesmh',
     icon: 'fab fa-twitter'
   },
   {
@@ -29,9 +29,9 @@ export default function SocialContacts() {
   return (
     <div className="social-container">
       {sociallinks.map(link => (
-        <a href={link.name ==='Email' ? `mailto:${link.url}` : link.url} target="_blank" rel="noopener noreferrer" key={link.name}>
-          <i className={link.icon}></i>
-          <p className="social-text">{link.name}</p>
+        <a href={link.name ==='Email' ? `mailto:${link.url}` : link.url} target="_blank" rel="noopener noreferrer" className='link' key={link.name}>
+          <i className= {`${link.icon}`} ></i>
+          <p className="">{link.name}</p>
         </a>
       ))}
     </div>
