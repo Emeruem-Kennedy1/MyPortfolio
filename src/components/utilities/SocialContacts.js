@@ -1,21 +1,20 @@
 import React from 'react'
-// import './socialContacts.css'
 
 
 const sociallinks = [
   {
     name: 'Github',
-    url: 'github.com/james-m-h',
+    url: 'https://github.com/Emeruem-Kennedy1/',
     icon: 'fab fa-github'
   },
   {
     name: 'LinkedIn',
-    url: 'linkedin.com/in/james-m-h',
+    url: 'lhttps://www.linkedin.com/in/kennedy-emeruem-ab9250198/',
     icon: 'fab fa-linkedin'
   },
   {
     name: 'Twitter',
-    url: 'https://twitter.com/jamesmh',
+    url: 'https://twitter.com/EmeruemKennedy',
     icon: 'fab fa-twitter'
   },
   {
