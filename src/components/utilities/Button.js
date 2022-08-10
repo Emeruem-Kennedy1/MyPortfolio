@@ -1,8 +1,7 @@
 import React from 'react'
-// import './button.css'
 
-export default function Button({children, cName, type}) {
+export default function Button({children, cName, type, link, target}) {
   return (
-    <button type={type} className={cName}> {children} </button>
+    <a type={type} className={cName} href={link} target={target}> {children} </a>
   )
 }

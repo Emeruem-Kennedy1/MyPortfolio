@@ -1,7 +1,6 @@
 import React from 'react'
 import Accordion from '../utilities/Accordion'
 import Skills from '../utilities/Skills'
-// import './aboutMe.css'
 import Bio from '../utilities/Bio'
 
 export default function AboutMe() {

@@ -10,32 +10,28 @@
 }
 
 .btn-primary {
-  background-color: rgba(35, 209, 163, 0.807);
+  background-color: rgba(35, 128, 209, 0.807);
   color: #040d1b;
-  border: 1px solid rgba(35, 209, 163, 0.807);
+  border: 1px solid rgba(35, 128, 209, 0.807);
 }
 
 .btn-primary:hover {
-  border: 1px solid rgba(35, 209, 163, 0.807);
-  color: rgba(35, 209, 163, 0.807);
+  border: 1px solid rgba(35, 128, 209, 0.807);
+  color: rgba(35, 128, 209, 0.807);
   background-color: transparent;
 }
 
 .btn-outline {
-  border: 1px solid rgba(35, 209, 163, 0.807);
-  color: rgba(35, 209, 163, 0.807);
+  border: 1px solid rgba(35, 128, 209, 0.807);
+  color: rgba(35, 128, 209, 0.807);
   background-color: transparent;
   text-decoration: none;
   text-align: center;
   cursor: pointer;
 }
 
-/* .btn-outline:hover{
-    background-color: $hoverColor;
-    color: $secondaryColor;
-} */
 .btn:hover {
-  background-color: rgba(35, 209, 163, 0.38);
+  background-color: rgba(35, 139, 209, 0.38);
   color: #f1f1f1;
 }
 
@@ -83,7 +79,7 @@
 
 input:focus {
   outline: none;
-  border: 1px solid rgba(35, 209, 163, 0.807);
+  border: 1px solid rgba(35, 128, 209, 0.807);
 }
 
 .form-container {
@@ -115,7 +111,7 @@ form {
 
 .form-group textarea:focus {
   outline: none;
-  border: 1px solid rgba(35, 209, 163, 0.807);
+  border: 1px solid rgba(35, 128, 209, 0.807);
 }
 
 form button {
@@ -168,11 +164,11 @@ form button {
   font-size: 1rem;
   font-weight: 300;
 }
-.nav-item a:hover {
+.nav-item .not-btn:hover {
   transition: ease-in-out 0.3s;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
 }
-.nav-item a {
+.nav-item .not-btn {
   padding: 1rem 2rem;
   text-decoration: none;
   color: #f1f1f1;
@@ -195,7 +191,7 @@ form button {
   margin: 0;
 }
 .nav-list .active a {
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
 }
 
 .sticky-nav {
@@ -207,10 +203,10 @@ form button {
 }
 
 @media screen and (max-width: 700px) {
-  .nav-item button {
+  .nav-item .btn {
     display: none;
   }
-  .nav-item a {
+  .nav-item .not-btn {
     padding: 1rem 1rem;
   }
 }
@@ -242,12 +238,13 @@ form button {
 .hero-section .text-box h2 {
   font-size: 2rem;
   font-weight: 300;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
 }
 .hero-section .text-box p {
   font-size: 1.2rem;
   font-weight: 300;
   color: #f1f1f1;
+  padding: 0rem 0rem 1rem 0rem;
 }
 .hero-section .resume-btn {
   display: none;
@@ -294,7 +291,7 @@ form button {
 .contact-section .contact-text h1 {
   font-size: 2rem;
   font-weight: 300;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
   padding: 2rem 0rem 0rem 0rem;
 }
 .contact-section .contact-text p {
@@ -349,7 +346,7 @@ form button {
 
 .social-container .link:hover {
   cursor: pointer;
-  color: rgba(35, 209, 163, 0.807) !important;
+  color: rgba(35, 128, 209, 0.807) !important;
 }
 
 .social-container i {
@@ -369,7 +366,7 @@ form button {
 }
 
 .social-container .link:hover i, .social-container .link:hover p {
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
 }
 
 @media screen and (min-width: 1140px) {
@@ -410,7 +407,7 @@ form button {
   font-size: 2rem;
   font-weight: 300;
   margin-bottom: 1rem;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
   text-align: center;
 }
 
@@ -423,7 +420,7 @@ form button {
 .accordion-and-bio .experience-container h3 {
   font-size: 1.5rem;
   font-weight: 200;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
   text-align: center;
 }
 .accordion-and-bio .experience-container .accordion-container {
@@ -436,7 +433,7 @@ form button {
   justify-content: space-between;
   width: 80%;
   height: 100%;
-  background-color: rgba(35, 209, 163, 0.807);
+  background-color: rgba(35, 128, 209, 0.807);
   cursor: pointer;
   padding: 0 10%;
   border-radius: 5px;
@@ -479,7 +476,7 @@ form button {
   font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: 1rem;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
   text-align: center;
 }
 .accordion-and-bio .experience-container .accordion-container .dropdown h4 {
@@ -504,11 +501,15 @@ form button {
   width: 80%;
   margin: 0 10%;
 }
+.accordion-and-bio .bio p {
+  padding-top: 1rem;
+  line-height: 1.5rem;
+}
 .accordion-and-bio .bio h1 {
   font-size: 1.5rem;
   font-weight: 200;
   margin-bottom: 1rem;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
   text-align: center;
 }
 
@@ -539,7 +540,7 @@ form button {
   font-size: 1.5rem;
   text-align: center;
   font-weight: 200;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
 }
 .skills-section .skills {
   width: 100%;
@@ -567,7 +568,7 @@ form button {
   transition: all 0.3s ease;
 }
 .skills-section .skills .skill-card .css {
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
   transition: all 4s ease;
 }
 .skills-section .skills .skill-card:hover hr {
@@ -589,7 +590,7 @@ form button {
 .project-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   width: 100%;
   padding: 0rem 10rem;
@@ -599,32 +600,30 @@ form button {
 .project-section h1 {
   font-size: 2rem;
   font-weight: 300;
-  padding: 2rem;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
   text-align: center;
 }
 .project-section .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  grid-gap: 2rem;
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .project-section .projects .project-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: #040d1b;
+  min-width: 280px;
+  max-width: 280px;
+  background-color: #0f0d16;
   border-radius: 10px;
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease-in-out;
-  margin-bottom: 2rem;
+  box-shadow: 2px 2px 20px #151323;
+  padding-bottom: 2rem;
+  margin: 2rem 0.7rem;
 }
 .project-section .projects .project-card-image {
   width: 100%;
-  height: 100%;
+  height: 180px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -634,15 +633,19 @@ form button {
 .project-section .projects .project-card-image img {
   width: 100%;
   height: 100%;
+  border-radius: 10px 10px 0px 0px;
+  transition: 0.5ms ease;
+}
+.project-section .projects .project-card-image img:hover {
+  transform: scale(1.1);
 }
 .project-section .projects .project-card-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
-  height: 100%;
-  padding: 0rem 1.5rem;
+  height: 60%;
   text-align: center;
 }
 .project-section .projects .project-card-text button {
@@ -651,13 +654,13 @@ form button {
 .project-section .projects .project-card-text h3 {
   font-size: 1.5rem;
   font-weight: 300;
-  margin-bottom: 0.5rem;
-  color: rgba(35, 209, 163, 0.807);
+  color: rgba(35, 128, 209, 0.807);
 }
 .project-section .projects .project-card-text p {
   font-size: 0.9rem;
   font-weight: 100;
   color: #f1f1f1;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 1140px) {

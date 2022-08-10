@@ -1,5 +1,5 @@
 import './css/main.css';
-import NavBar from "./components/navbarComponents/NavBar";
+import NavBar from "./components/navbar/NavBar";
 import HeroSection from "./components/heroSection/HeroSection";
 import Projects from "./components/myProjects/Projects";
 import Contact from "./components/contact/Contact";

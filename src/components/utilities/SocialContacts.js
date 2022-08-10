@@ -9,7 +9,7 @@ const sociallinks = [
   },
   {
     name: 'LinkedIn',
-    url: 'lhttps://www.linkedin.com/in/kennedy-emeruem-ab9250198/',
+    url: 'https://www.linkedin.com/in/kennedy-emeruem-ab9250198/',
     icon: 'fab fa-linkedin'
   },
   {

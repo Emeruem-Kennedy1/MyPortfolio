@@ -1,12 +1,12 @@
 import React from 'react'
-// import './bio.css'
 
 export default function Bio() {
   return (
     <div className='bio'>
         <h1>Bio</h1>
         <p>
-            Ea deserunt veniam minim incididunt laborum id minim non anim ea. Voluptate fugiat sunt et aliquip consequat mollit minim Lorem aute nisi. Adipisicing et cillum tempor incididunt enim. Minim consectetur labore laborum laborum tempor et.  Ea deserunt veniam minim incididunt laborum id minim non anim ea. Voluptate fugiat sunt et aliquip consequat mollit minim Lorem aute nisi. Adipisicing et cillum tempor incididunt enim. Minim consectetur labore laborum laborum tempor et.
+           I am a Nigerian Software Developer with a passion for writing awesome code and building amazing digital experiences. I am currently a Computer Science student at Minerva University in San Francisco. I use software to solve problems facing me and my immediate community. I am always looking forward to working a new project…
+ 
         </p>
     </div>
   )

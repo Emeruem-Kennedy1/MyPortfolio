@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import { experience } from './experience'
-// import './accordion.css'
 
 export default function Accordion({title}) {
 
@@ -19,8 +18,8 @@ export default function Accordion({title}) {
     {
         experience.map((item, index) => {
             return (
-                <div className='accordion-container'>
-                    <div className='wrap' onClick={()=> toggle(index)} key={index+10}>
+                <div className='accordion-container' key={index}>
+                    <div className='wrap' onClick={()=> toggle(index)}>
                         <h2>{item.startDate} - {item.endDate}</h2>
                         <span>{clicked === index ?  <span className="material-icons">remove</span> : <span className="material-icons">add</span> }</span>
                     </div>

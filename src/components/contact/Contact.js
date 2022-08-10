@@ -1,7 +1,6 @@
 import React from 'react'
 import FormComponent from '../utilities/FormComponent'
 import SocialContacts from '../utilities/SocialContacts'
-// import './contact.css'
 
 
 export default function Contact() {

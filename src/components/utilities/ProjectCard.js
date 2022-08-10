@@ -1,8 +1,7 @@
 import React from 'react'
 import Button from './Button'
-// import './projectCard.css'
 
-export default function ProjectCard({ProjectName, ProjectDescription, ProjectImage, ProjectLink}) {
+export default function ProjectCard({ProjectName, ProjectDescription, ProjectImage, goto}) {
   return (
     <>
         <div className='project-card'>
@@ -12,7 +11,7 @@ export default function ProjectCard({ProjectName, ProjectDescription, ProjectIma
             <div className='project-card-text'>
                 <h3>{ProjectName}</h3>
                 <p>{ProjectDescription}</p>
-                <Button  cName='btn btn-outline' children='View Project' />
+                <Button  cName='btn btn-outline' children='View Project' link={goto} />
             </div>
         </div>
     </>

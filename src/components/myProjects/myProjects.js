@@ -1,38 +1,48 @@
+import passlock from '../../assets/passlock.png';
+import weatherly from '../../assets/weatherly.png';
+import flashcardapp from '../../assets/flashcardapp.png';
+import learndotcom from '../../assets/learn.com.png';
+import quotesGenerator from '../../assets/random_quotes_gen.png';
+
 const myProjects = [
     {
         id: 1,
-        name: 'Project 1',
-        description: 'Enim voluptate aute ea amet in id ullamco officia. Ipsum excepteur officia non incididunt in elit Lorem aute et officia.',
-        image: 'https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjQ4Mzl8MHwxfHNlYXJjaHw4fHxMb3MlMjBBbmdlbGVzfGVufDB8fHx8MTY1ODQzMjY3OA&ixlib=rb-1.2.1&q=80&w=1080',
-        link: '#'
+        name: 'FlashCard',
+        description: 'A simple Ios app that helps sudents study for tests/ exams using flashcards. Students can add delete and edit flashcards. This app is built using Swift.',
+        techStack: ['swift'],
+        image: flashcardapp,
+        link: 'https://github.com/Emeruem-Kennedy1/Flashcard-App'
     },
     {
         id: 2,
-        name: 'Project 2',
-        description: 'This is a great project. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quis.',
-        image: 'https://images.unsplash.com/photo-1658351984016-dda2025086de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80',
-        link: '#'
+        name: 'Weatherly',
+        description: 'A simple Weather app that displays weather forcast for 7days and every hour for 24 hours for a given location. It is built using HTMl, SCSS, javascript, and openweathermap.org API.',
+        techStack: ['html', 'css', 'javascript'],
+        image: weatherly,
+        link: 'https://mylocationweather.netlify.app/'
     },
     {
         id: 3,
-        name: 'Project 3',
-        description: 'Enim voluptate aute ea amet in id ullamco officia. Ipsum excepteur officia non incididunt in elit Lorem aute et officia.',
-        image: 'https://images.unsplash.com/photo-1658351984016-dda2025086de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80',
-        link: '#'
+        name: 'Learn.com',
+        description: 'A simple website that helps students learn math by providing them with a variety of math topics with curated list links to youtube videos and an assesment after each topic.',
+        techStack: ['ejs', 'Bootstrap', 'nodejs', 'express', 'mongoose'],
+        image: learndotcom,
+        link: 'https://learn-dot-com.github.io/Learndotcom/'
     },
     {
         id: 4,
-        name: 'Project 4',
-        description: 'Enim voluptate aute ea amet in id ullamco officia. Ipsum excepteur officia non incididunt in elit Lorem aute et officia.',
-        image: 'https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjQ4Mzl8MHwxfHNlYXJjaHw4fHxMb3MlMjBBbmdlbGVzfGVufDB8fHx8MTY1ODQzMjY3OA&ixlib=rb-1.2.1&q=80&w=1080',
-        link: '#'
+        name: 'Quotes Generator',
+        description: 'This app allows users to generate random quotes from a list of famous people and famous quotes. This app is built using HTML, CSS, Javascript, and the Quotes API.',
+        image: quotesGenerator,
+        link: 'https://emeruem-kennedy1.github.io/Random-Quotes-Generator/'
+       
     },
     {
-        id: 4,
-        name: 'Project 4',
-        description: 'Enim voluptate aute ea amet in id ullamco officia. Ipsum excepteur officia non incididunt in elit Lorem aute et officia.',
-        image: 'https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMjQ4Mzl8MHwxfHNlYXJjaHw4fHxMb3MlMjBBbmdlbGVzfGVufDB8fHx8MTY1ODQzMjY3OA&ixlib=rb-1.2.1&q=80&w=1080',
-        link: '#'
+        id: 5,
+        name: 'PassLock',
+        description: 'This is a web application that allows users to store and retrieve passwords for their important services. This abb is built using mongoDB, EJS, express, and nodejs.',
+        image: passlock, 
+        link: 'https://github.com/Emeruem-Kennedy1/Password-Manager'
     }
 ]
 

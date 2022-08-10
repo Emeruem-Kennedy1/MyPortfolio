@@ -1,5 +1,4 @@
 import React from 'react'
-// import './skills.css'
 import { mySkills } from './myProgrammingLanguages'
 
 
