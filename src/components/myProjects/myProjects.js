@@ -19,7 +19,7 @@ const myProjects = [
         description: 'A simple Weather app that displays weather forcast for 7days and every hour for 24 hours for a given location. It is built using HTMl, SCSS, javascript, and openweathermap.org API.',
         techStack: ['html', 'css', 'javascript'],
         image: weatherly,
-        link: 'https://mylocationweather.netlify.app/'
+        link: 'https://weatherlyloaction.netlify.app/'
     },
     {
         id: 3,
