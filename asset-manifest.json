@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1927317c.css",
-    "main.js": "/static/js/main.9d7e914c.js",
+    "main.js": "/static/js/main.f28bb058.js",
     "static/media/learn.com.png": "/static/media/learn.com.ba933d1aa25841ffd2da.png",
     "static/media/weatherly.png": "/static/media/weatherly.8392aa6b80008c29c216.png",
     "static/media/passlock.png": "/static/media/passlock.523c31aeebc121920a19.png",
@@ -10,10 +10,10 @@
     "static/media/flashcardapp.png": "/static/media/flashcardapp.3b3d198cf44b1b33a94f.png",
     "index.html": "/index.html",
     "main.1927317c.css.map": "/static/css/main.1927317c.css.map",
-    "main.9d7e914c.js.map": "/static/js/main.9d7e914c.js.map"
+    "main.f28bb058.js.map": "/static/js/main.f28bb058.js.map"
   },
   "entrypoints": [
     "static/css/main.1927317c.css",
-    "static/js/main.9d7e914c.js"
+    "static/js/main.f28bb058.js"
   ]
 }
