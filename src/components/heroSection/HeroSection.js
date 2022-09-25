@@ -11,7 +11,7 @@ export default function HeroSection() {
             <h2>Full Stack Web Developer</h2>
             <p> I'm a full stack web developer with a passion for creating clean and elegant web applications.</p>
             <Button link='#contact' cName='btn btn-primary contact-btn' children='Contact Me' />
-            <Button link='https://drive.google.com/file/d/1XCUTaL7tQwu_mphMH-fi4qAwbNHleOtz/view?usp=sharing' target='_blank' cName='btn btn-outline resume-btn' children='Resume' />
+            <Button link='https://drive.google.com/file/d/1KA-aZ2bIallnB4imXMAeOdl4hI3FccoE/view?usp=sharing' target='_blank' cName='btn btn-outline resume-btn' children='Resume' />
         </div>
         <div className='hero-image'>
             <img src={kendo} alt="hero" />

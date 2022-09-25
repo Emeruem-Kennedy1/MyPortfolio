@@ -24,7 +24,7 @@ export default function NavBar() {
                 </li>
             ))}
             <li className='nav-item'>
-            <Button cName='btn btn-outline nav-item' children='Resume' link='https://drive.google.com/file/d/1XCUTaL7tQwu_mphMH-fi4qAwbNHleOtz/view?usp=sharing' target='_blank' />
+            <Button cName='btn btn-outline nav-item' children='Resume' link='https://drive.google.com/file/d/1KA-aZ2bIallnB4imXMAeOdl4hI3FccoE/view?usp=sharing' target='_blank' />
             </li>
         </ul>
     </div>
