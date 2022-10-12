@@ -42,7 +42,7 @@ const myProjects = [
         name: 'PassLock',
         description: 'This is a web application that allows users to store and retrieve passwords for their important services. This abb is built using mongoDB, EJS, express, and nodejs.',
         image: passlock, 
-        link: 'https://github.com/Emeruem-Kennedy1/Password-Manager'
+        link: 'https://password-manager-frontend.herokuapp.com/'
     }
 ]
 
