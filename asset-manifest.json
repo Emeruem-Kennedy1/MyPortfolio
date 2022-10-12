@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1927317c.css",
-    "main.js": "/static/js/main.c53946dc.js",
+    "main.css": "/static/css/main.b02f0a1b.css",
+    "main.js": "/static/js/main.aef8fcb7.js",
     "static/media/learn.com.png": "/static/media/learn.com.ba933d1aa25841ffd2da.png",
     "static/media/weatherly.png": "/static/media/weatherly.8392aa6b80008c29c216.png",
     "static/media/passlock.png": "/static/media/passlock.523c31aeebc121920a19.png",
@@ -9,11 +9,11 @@
     "static/media/kendo.png": "/static/media/kendo.e4ad1fddc84d66400fa5.png",
     "static/media/flashcardapp.png": "/static/media/flashcardapp.3b3d198cf44b1b33a94f.png",
     "index.html": "/index.html",
-    "main.1927317c.css.map": "/static/css/main.1927317c.css.map",
-    "main.c53946dc.js.map": "/static/js/main.c53946dc.js.map"
+    "main.b02f0a1b.css.map": "/static/css/main.b02f0a1b.css.map",
+    "main.aef8fcb7.js.map": "/static/js/main.aef8fcb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1927317c.css",
-    "static/js/main.c53946dc.js"
+    "static/css/main.b02f0a1b.css",
+    "static/js/main.aef8fcb7.js"
   ]
 }
