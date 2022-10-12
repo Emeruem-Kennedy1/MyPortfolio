@@ -17,7 +17,7 @@ const myProjects = [
         id: 2,
         name: 'Weatherly',
         description: 'A simple Weather app that displays weather forcast for 7days and every hour for 24 hours for a given location. It is built using HTMl, SCSS, javascript, and openweathermap.org API.',
-        techStack: ['html', 'css', 'javascript'],
+        techStack: ['html', 'SCSS', 'javascript'],
         image: weatherly,
         link: 'https://weatherlyloaction.netlify.app/'
     },
@@ -25,7 +25,7 @@ const myProjects = [
         id: 3,
         name: 'Learn.com',
         description: 'A simple website that helps students learn math by providing them with a variety of math topics with curated list links to youtube videos and an assesment after each topic.',
-        techStack: ['ejs', 'Bootstrap', 'nodejs', 'express', 'mongoose'],
+        techStack: ['Bootstrap', 'html'],
         image: learndotcom,
         link: 'https://learn-dot-com.github.io/Learndotcom/'
     },
@@ -34,6 +34,7 @@ const myProjects = [
         name: 'Quotes Generator',
         description: 'This app allows users to generate random quotes from a list of famous people and famous quotes. This app is built using HTML, CSS, Javascript, and the Quotes API.',
         image: quotesGenerator,
+        techStack: ['html', 'css', 'javascript'],
         link: 'https://emeruem-kennedy1.github.io/Random-Quotes-Generator/'
        
     },
@@ -42,8 +43,10 @@ const myProjects = [
         name: 'PassLock',
         description: 'This is a web application that allows users to store and retrieve passwords for their important services. This abb is built using mongoDB, EJS, express, and nodejs.',
         image: passlock, 
+        techStack: ['ejs', 'Bootstrap', 'nodejs', 'express', 'mongoDB'],
         link: 'https://password-manager-frontend.herokuapp.com/'
     }
+
 ]
 
 export default myProjects;

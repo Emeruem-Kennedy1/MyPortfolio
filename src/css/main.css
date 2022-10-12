@@ -662,6 +662,23 @@ form button {
   color: #f1f1f1;
   padding: 1rem;
 }
+.project-section .projects .project-card-text .project-card-techstack {
+  color: #f1f1f1;
+  font-size: 0.8rem;
+  font-weight: 100;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.project-section .projects .project-card-text .project-card-techstack span {
+  margin: 0.2rem 0.5rem;
+  border: 1px solid #f1f1f1;
+  padding: 0.2rem 0.5rem;
+  border-radius: 25px;
+}
 
 @media screen and (max-width: 1140px) {
   .project-section {

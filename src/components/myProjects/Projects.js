@@ -10,7 +10,7 @@ export default function Projects() {
         <div className='projects'>
         {
             myProjects.map((project,index) => {
-                return <ProjectCard ProjectName={project.name} ProjectDescription={project.description} ProjectImage={project.image} goto={project.link} key={index} />
+                return <ProjectCard ProjectName={project.name} ProjectDescription={project.description} ProjectImage={project.image} goto={project.link} key={index} techStack={project.techStack} />
             })
         }
         </div>
