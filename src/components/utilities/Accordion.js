@@ -20,6 +20,7 @@ export default function Accordion({title}) {
             return (
                 <div className='accordion-container' key={index}>
                     <div className='wrap' onClick={()=> toggle(index)}>
+                        <h2>{item.shortTitle}</h2>
                         <h2>{item.startDate} - {item.endDate}</h2>
                         <span>{clicked === index ?  <span className="material-icons">remove</span> : <span className="material-icons">add</span> }</span>
                     </div>
