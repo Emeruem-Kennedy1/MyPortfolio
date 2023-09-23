@@ -5,6 +5,7 @@ import Projects from "./components/myProjects/Projects";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import AboutMe from "./components/about/AboutMe";
+import Assignments from './components/assignments/Assignments';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <HeroSection />
       <AboutMe />
       <Projects />
+      <Assignments />
       <Contact />
       <Footer />
     </div>

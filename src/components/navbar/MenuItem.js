@@ -15,6 +15,11 @@ const menuItems = [
         cName: 'nav-item'
     },
     {
+        name: 'Assignments',
+        link: '#assignments',
+        cName: 'nav-item'
+    },
+    {
         name: 'Contact',
         link: '#contact',
         cName: 'nav-item'
