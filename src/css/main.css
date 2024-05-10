@@ -745,6 +745,84 @@ footer {
   color: #f1f1f1;
 }
 
+.articles h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  color: rgba(35, 128, 209, 0.807);
+}
+
+.article-page {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  line-height: 1.6;
+  margin: 0, auto;
+  font-size: 18px;
+}
+.article-page .article *,
+.article-page .article h1,
+.article-page .article h2,
+.article-page .article h3,
+.article-page .article h4,
+.article-page .article h5,
+.article-page .article h6,
+.article-page .article p,
+.article-page .article li,
+.article-page .article table,
+.article-page .article th,
+.article-page .article td,
+.article-page .article a {
+  color: #f1f1f1;
+}
+.article-page .article h1,
+.article-page .article h2,
+.article-page .article h3,
+.article-page .article h4,
+.article-page .article h5,
+.article-page .article h6 {
+  color: rgba(35, 128, 209, 0.807);
+}
+.article-page .article pre {
+  background-color: #151320;
+  color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+.article-page .article code {
+  font-family: "Courier New", Courier, monospace;
+}
+.article-page .article img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+.article-page .article a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+.article-page .article a:hover {
+  text-decoration: underline;
+}
+.article-page .article table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+.article-page .article table th,
+.article-page .article table td {
+  border: 1px solid #f1f1f1;
+  padding: 0.5rem;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .article-page {
+    font-size: 16px;
+  }
+}
+
 * {
   box-sizing: border-box;
 }

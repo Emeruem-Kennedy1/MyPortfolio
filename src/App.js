@@ -1,24 +1,18 @@
-import './css/main.css';
-import NavBar from "./components/navbar/NavBar";
-import HeroSection from "./components/heroSection/HeroSection";
-import Projects from "./components/myProjects/Projects";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
-import AboutMe from "./components/about/AboutMe";
-import Assignments from './components/assignments/Assignments';
-
+import "./css/main.css";
+import Root from "./components/pages/root";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Articles from "./components/pages/articles";
+import Article from "./components/pages/article";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <HeroSection />
-      <AboutMe />
-      <Projects />
-      {/* <Assignments /> */}
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Root />} />
+        <Route path="/articles" element={<Articles />} />
+        <Route path="/articles/:id" element={<Article />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
