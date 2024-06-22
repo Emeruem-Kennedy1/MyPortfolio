@@ -1,27 +1,27 @@
 const menuItems = [
     {
         name: 'Home',
-        link: '#',
+        link: '/#',
         cName: 'nav-item'
     },
     {
         name: 'About',
-        link: '#about',
+        link: '/#about',
         cName: 'nav-item'
     },
     {
         name: 'Projects',
-        link: '#projects',
+        link: '/#projects',
         cName: 'nav-item'
     },
     {
-        name: 'Assignments',
-        link: '#assignments',
+        name: 'Blog',
+        link: '/articles',
         cName: 'nav-item'
     },
     {
         name: 'Contact',
-        link: '#contact',
+        link: '/#contact',
         cName: 'nav-item'
     }
 ]
