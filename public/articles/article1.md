@@ -1,128 +1,18 @@
-# A demo of `react-markdown`
+As someone who loves nature, there's nothing quite like the thrill of exploring the world's most beautiful landscapes. From snow-capped mountains to crystal-clear waters, there's no shortage of natural wonders to discover. So pack your bags, grab your hiking boots, and let's take a journey around the globe to explore some of the most breathtaking natural sights on earth.
 
-`react-markdown` is a markdown component for React.
+## South America: Patagonia
+Our first stop is Patagonia, a region at the southern end of South America that spans across Argentina and Chile. This vast wilderness is home to towering mountains, glaciers, and turquoise lakes that will leave you in awe. Hike the famous "W" trek in Torres del Paine National Park, kayak through the fjords of Tierra del Fuego, or explore the Perito Moreno Glacier. No matter how you choose to explore Patagonia, you're sure to be surrounded by some of the most stunning scenery in the world.
 
-👉 Changes are re-rendered as you type.
+## Africa: Serengeti National Park
+Next up, we head to Africa to witness the incredible wildlife of Serengeti National Park. This vast savannah is home to lions, elephants, giraffes, and countless other species that roam freely across the grasslands. Take a hot air balloon ride over the park to witness the sunrise and see the animals from a unique perspective, or go on a guided safari to get up close and personal with the wildlife.
 
-👈 Try writing some markdown on the left.
+## Asia: Ha Long Bay
+Our journey takes us to Ha Long Bay in Vietnam, a UNESCO World Heritage site known for its stunning limestone formations that rise up from the emerald waters. Take a boat tour through the bay to see the towering cliffs and hidden caves, or kayak through the smaller channels to get a closer look at the unique landscape.
 
-## Overview
+## Australia: Great Barrier Reef
+No nature lover's journey would be complete without a visit to the Great Barrier Reef in Australia. This underwater wonderland is home to thousands of species of fish, coral, and other marine life, and is the perfect destination for snorkeling or scuba diving. Swim with sea turtles, spot colorful fish, and marvel at the vibrant coral formations that make up this incredible ecosystem.
 
-* Follows [CommonMark](https://commonmark.org)
-* Optionally follows [GitHub Flavored Markdown](https://github.github.com/gfm/)
-* Renders actual React elements instead of using `dangerouslySetInnerHTML`
-* Lets you define your own components (to render `MyHeading` instead of `'h1'`)
-* Has a lot of plugins
+## North America: Yellowstone National Park
+Our final stop brings us to Yellowstone National Park in the United States. This iconic park is home to geysers, hot springs, and other thermal features that are unlike anything else on earth. Hike through the park to see the famous Old Faithful geyser, or take a dip in one of the park's many hot springs. And don't forget to keep an eye out for the park's resident wildlife, including bison, elk, and grizzly bears.
 
-## Contents
-
-Here is an example of a plugin in action
-([`remark-toc`](https://github.com/remarkjs/remark-toc)).
-**This section is replaced by an actual table of contents**.
-
-## Syntax highlighting
-
-Here is an example of a plugin to highlight code:
-[`rehype-highlight`](https://github.com/rehypejs/rehype-highlight).
-
-```javascript
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Markdown from 'react-markdown'
-import rehypeHighlight from 'rehype-highlight'
-
-const markdown = `
-# Your markdown here
-`
-
-ReactDOM.render(
-  <Markdown rehypePlugins={[rehypeHighlight]}>{markdown}</Markdown>,
-  document.querySelector('#content')
-)
-```
-
-Pretty neat, eh?
-
-## GitHub flavored markdown (GFM)
-
-For GFM, you can *also* use a plugin:
-[`remark-gfm`](https://github.com/remarkjs/react-markdown#use).
-It adds support for GitHub-specific extensions to the language:
-tables, strikethrough, tasklists, and literal URLs.
-
-These features **do not work by default**.
-👆 Use the toggle above to add the plugin.
-
-| Feature    | Support              |
-| :---------: | :-------------------: |
-| CommonMark | 100%                 |
-| GFM        | 100% w/ `remark-gfm` |
-
-~~strikethrough~~
-
-* [ ] task list
-* [x] checked item
-
-https://example.com
-
-## HTML in markdown
-
-⚠️ HTML in markdown is quite unsafe, but if you want to support it, you can
-use [`rehype-raw`](https://github.com/rehypejs/rehype-raw).
-You should probably combine it with
-[`rehype-sanitize`](https://github.com/rehypejs/rehype-sanitize).
-
-
-> 👆 Use the toggle above to add the plugin.
-
-## Components
-
-You can pass components to change things:
-
-```js
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Markdown from 'react-markdown'
-import MyFancyRule from './components/my-fancy-rule.js'
-
-const markdown = `
-# Your markdown here
-`
-
-ReactDOM.render(
-  <Markdown
-    components={{
-      // Use h2s instead of h1s
-      h1: 'h2',
-      // Use a component instead of hrs
-      hr(props) {
-        const {node, ...rest} = props
-        return <MyFancyRule {...rest} />
-      }
-    }}
-  >
-    {markdown}
-  </Markdown>,
-  document.querySelector('#content')
-)
-```
-
-## More components
-
-```python
-def hello():
-    print("Hello, World!")
-```
-
-```cpp
-#include <iostream>
-```
-
-## More info?
-
-Much more info is available in the
-[readme on GitHub](https://github.com/remarkjs/react-markdown)!
-
-***
-
-A component by [Espen Hovlandsdal](https://espen.codes/)
+Travelling the globe as a nature lover is an incredible experience that will leave you with memories that will last a lifetime. So pack your bags, and get ready to explore some of the most beautiful natural wonders on earth.

@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "id": "article1",
+      "title": "Exploring the World's Natural Wonders: A Nature Lover's Journey",
+      "image": "https://cosmic-nextjs-blog.vercel.app/_next/image?url=https%3A%2F%2Fimgix.cosmicjs.com%2Fbab6b030-ff1e-11ed-8fca-9b0db64c9b86-nasa-vhSz50AaFAs-unsplash.jpg%3Fw%3D1400%26auto%3Dformat&w=1920&q=75",
+      "author": "Kennedy Emeruem",
+      "publish_date": "July 12, 2024",
+      "is_published": true,
+      "tags": [
+        "nature",
+        "travel"
+      ]
+    },
+    {
+      "id": "20240712E196BE6E",
+      "title": "Your Article Title",
+      "image": "https://cosmic-nextjs-blog.vercel.app/_next/image?url=https%3A%2F%2Fimgix.cosmicjs.com%2Fbab6b030-ff1e-11ed-8fca-9b0db64c9b86-nasa-vhSz50AaFAs-unsplash.jpg%3Fw%3D1400%26auto%3Dformat&w=1920&q=75",
+      "author": "Author Name",
+      "publish_date": "July 12, 2024",
+      "is_published": false,
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  ]
+}

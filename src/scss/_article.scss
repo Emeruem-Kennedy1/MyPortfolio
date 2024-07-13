@@ -1,81 +1,94 @@
-.article-page {
-  .article {
-    *,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    li,
-    table,
-    th,
-    td,
-    a {
-      color: $secondaryColor;
-    }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: $primaryColor;
-    }
+.article-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6% 0;
+}
+.article {
+  *,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  table,
+  th,
+  td,
+  a {
+    color: $secondaryColor;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $secondaryColor;
+    font-weight: 500;
+  }
 
-    // Code styling
-    pre {
-      background-color: $darkBlue;
-      color: $secondaryColor;
-      padding: 1rem;
-      border-radius: 5px;
-      overflow-x: auto;
-      width: 90%;
-      margin: 0 auto;
-    }
+  // Code styling
+  pre {
+    background-color: $darkBlue;
+    color: $secondaryColor;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    width: 90%;
+    margin: 0 auto;
+  }
 
-    code {
-      font-family: "Courier New", Courier, monospace; // Monospace font for code
-    }
+  code {
+    font-family: "Courier New", Courier, monospace; // Monospace font for code
+  }
 
-    img {
-      max-width: 100%; // Ensures images are not bigger than their container
-      height: auto; // Maintain aspect ratio
-      margin: 10px 0; // Margin for separation
-    }
+  img {
+    max-width: 100%; // Ensures images are not bigger than their container
+    height: auto; // Maintain aspect ratio
+    margin: 10px 0; // Margin for separation
+  }
 
-    // Link styling
-    a {
-      color: $tertiaryColor; // Link color
-      text-decoration: none; // No underline
-      &:hover {
-        text-decoration: underline; // Underline on hover
-      }
-    }
-
-    // Table styling
-    table {
-      border-collapse: collapse; // Remove space between table cells
-      width: 100%; // Table width
-      margin: 0 auto; // Center table
-      th,
-      td {
-        border: 1px solid $secondaryColor; // Border color
-        padding: 0.5rem; // Padding for content
-        text-align: center;
-      }
+  // Link styling
+  a {
+    color: $tertiaryColor; // Link color
+    text-decoration: none; // No underline
+    &:hover {
+      text-decoration: underline; // Underline on hover
     }
   }
-  // center the document
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  line-height: 1.6;
-  margin: 0, auto;
-  font-size: 18px;
 
-  @media (max-width: 768px) {
-    font-size: 16px;
+  // Table styling
+  table {
+    border-collapse: collapse; // Remove space between table cells
+    width: 100%; // Table width
+    margin: 0 auto; // Center table
+    th,
+    td {
+      border: 1px solid $secondaryColor; // Border color
+      padding: 0.5rem; // Padding for content
+      text-align: center;
+    }
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 1rem 2rem;
+  width: 50%;
+  p {
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: $articleTextColor;
+  }
+
+  pre {
+    // make the font size smaller
+    font-size: 0.8rem !important;
+    width: 100%;
   }
 }
